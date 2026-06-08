@@ -1,0 +1,20 @@
+LAB 05 - GUI PROGRAMMING ANSWERS
+
+1. Difference between AWT and Swing:
+- AWT (Abstract Window Toolkit) is a heavy-weight component library that depends on the native OS GUI.
+- Swing is a light-weight component library that is written entirely in Java and is platform-independent.
+- Swing components are more flexible and have a more consistent look and feel across platforms compared to AWT.
+
+2. Layout Managers:
+- Layout managers are responsible for arranging components within a container.
+- Common layout managers include BorderLayout, FlowLayout, and GridLayout.
+- They handle resizing and positioning automatically based on the container's size.
+
+3. JavaFX and FXML:
+- JavaFX is a modern GUI toolkit for Java that replaces Swing.
+- FXML is an XML-based language used to define the user interface separately from the application logic.
+- Benefits of FXML include better separation of concerns (UI vs Logic) and ease of design using tools like Scene Builder.
+
+4. Event Handling in JavaFX:
+- Event handling in JavaFX is based on delegates and properties.
+- You can use lambda expressions or dedicated controller methods (annotated with @FXML) to handle actions like button clicks or mouse movements.
